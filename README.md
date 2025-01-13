@@ -1,3 +1,20 @@
+# Instructions for running the website locally
+
+
+1. Install Jekyll and Bundler
+```bash
+gem install jekyll bundler
+bundle exec jekyll serve
+jekyll s
+```
+2. Check list for errors
+```bash
+ruby -v
+gem -v
+rubenv global <version> # if dependencies conflict occurs
+```
+
+
 # Nerfies
 
 This is the repository that contains source code for the [Nerfies website](https://nerfies.github.io).
